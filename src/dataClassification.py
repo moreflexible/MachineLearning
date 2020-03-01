@@ -22,8 +22,8 @@ def ReadDataSetFromFile(filename):
    samples = data[0][0][0]
    labels = data[0][0][1]
 
-   print("samples Shape: " + str(samples.shape))
-   print("labels Shape: " + str(labels.shape))
+   #print("samples Shape: " + str(samples.shape))
+   #print("labels Shape: " + str(labels.shape))
 
    return [samples, labels]
 
